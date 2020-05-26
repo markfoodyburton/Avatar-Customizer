@@ -11,12 +11,12 @@ import shirt from "./shirt_default.png";
 import jacket from "./jacket_default.png";
 
 //import ae from "./ae.png";
-import duck from "./duck.png";
+// import duck from "./duck.png";
 //import gt from "./gt.png"; 
 
-import ieee_black from "./ieee_logo_black.png"; 
-import ieee_red from "./ieee_logo_red.png"; 
-import ieee_white from "./ieee_logo_white.png"; 
+import nu2020_logo_blue from "./nu2020_logo_blue.png"; 
+import nu2020_logo_transp from "./nu2020_logo_transp.png"; 
+import nu2020_logo_white from "./nu2020_logo_white.png"; 
 
 const shirtColors = ["#f2f2f2", "#cedded", "#92a1b1", "#3479b7","#7d0c1e","#262525"]
 
@@ -32,13 +32,13 @@ var assets = {
     materials: []
   },
   front: {
-    selected: ieee_white,
-    textures: [ieee_white,ieee_red,ieee_black, duck],
+    selected: nu2020_logo_white,
+    textures: [nu2020_logo_white,nu2020_logo_transp,nu2020_logo_blue],
     materials: []
   },
   back: {
     selected: 'none',
-    textures: [ieee_white,ieee_red,ieee_black, duck],
+    textures: [nu2020_logo_white,nu2020_logo_transp,nu2020_logo_blue],
     materials: []
   }
 }
