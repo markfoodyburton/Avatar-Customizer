@@ -10,6 +10,7 @@ Served on GitHub pages. Only `docs` direcotry from master is currently served.
 Clone the repo, then:
 ```
 npm ci
+npm install @babel/helper-compilation-targets --save-dev
 npm run build
 ```
 And push to master.
