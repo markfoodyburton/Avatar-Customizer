@@ -17,7 +17,7 @@ import jacket from "./jacket_default.png";
 import gs from "./gs.png"; 
 import dvcon from "./dvcon-europe-2020-logo.png"; 
 
-const shirtColors = ["#f2f2f2", "#cedded", "#92a1b1", "#3479b7","#7d0c1e","#262525"]
+const shirtColors = ["#f2f2f2", "#212b58", "#7f90b6", "#E0C448","#387f22","#262525"]
 
 var assets = {
   shirt: {
